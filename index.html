@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="src/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="src/style.scss" />
+    <script type="module" src="src/app.js"></script>
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img
+          src="src/images/illustration-hero.svg"
+          alt="illustration hero"
+          class="card-image"
+        />
+        <div class="card-content">
+          <div class="header">
+            <h3>خلاصه سفارش</h3>
+            <p>
+              اکنون می‌توانید به میلیون‌ها آهنگ، کتاب صوتی و پادکست در هر
+              دستگاهی که دوست دارید گوش دهید!
+            </p>
+          </div>
+          <div class="plan">
+            <img
+              class="plan-icon"
+              src="src/images/icon-music.svg"
+              alt="icon music"
+            />
+            <div class="plan-description">
+              <strong class="plan-name">پرداخت سالانه</strong>
+              <p class="plan-price">
+                <span class="fa-num">59هزار</span> تومان/سال
+              </p>
+            </div>
+            <a href="#" class="plan-cta">تغییر</a>
+          </div>
+
+          <a href="#" class="card__cta card__cta--main">پرداخت سفارش</a>
+          <a href="#" class="card__cta card__cta--secondary">لغو سفارش</a>
+        </div>
+      </div>
+    </div>
+    <picture>
+      <source
+        media="(max-width: 600px)"
+        srcset="/src/images/pattern-background-mobile.svg"
+      />
+      <img
+        class="bg-pattern"
+        src="src/images/pattern-background-desktop.svg"
+        alt="pattern background"
+      />
+    </picture>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io/challenges" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/mkajs" target="_blank">MKAJS</a>.
+    </div>
+  </body>
+</html>
